@@ -1,0 +1,13 @@
+c = {1,2,3,4,'lucy','candy',200,100,200,'prasanth',200,100,300,300,'lucy'}
+print ( type (c) )
+c.add (46)
+print (c)
+c.add ('loop')
+print (c)
+c.remove ('lucy')
+print (c)
+c.remove (200)
+print (c)
+d = frozenset (c)
+print ( type (d) )
+print (d)
